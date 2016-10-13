@@ -1,0 +1,26 @@
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class EmbreyZacharyHelloWorld {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+		Scanner readwords = new Scanner(new FileReader("HelloWorld.txt"));
+		
+    while(readwords.hasNextLine())
+    {
+    String temp = readwords.nextLine();
+    System.out.println(temp);
+    
+    
+    }
+    
+    
+    
+    }
+    
+    
+}
